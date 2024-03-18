@@ -25,9 +25,9 @@ spec:
         app: to-do-deployment
     spec:
       containers:
-        - image: ghcr.io/ci-cd-2024-dhbw-hdh/simon.berndt:master
+        - image: ghcr.io/ci-cd-2024-dhbw-hdh/max-loehr:master
           imagePullPolicy: IfNotPresent
-          name: simon-berndt
+          name: max-loehr
           resources: {}
           terminationMessagePath: /dev/termination-log
           terminationMessagePolicy: File
