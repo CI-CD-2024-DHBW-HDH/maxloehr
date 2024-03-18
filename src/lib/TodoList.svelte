@@ -1,3 +1,4 @@
+
 <script lang="ts">
   import { generateColor, todoList, type TodoItem } from "../logic/todo";
 
