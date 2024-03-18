@@ -4,7 +4,7 @@ metadata:
   labels:
     app: to-do-service
   name: to-do-service
-  namespace: simon-berndt
+  namespace: max-loehr
 spec:
   externalTrafficPolicy: Cluster
   internalTrafficPolicy: Cluster
