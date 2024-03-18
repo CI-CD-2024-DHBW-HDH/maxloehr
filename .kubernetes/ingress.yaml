@@ -2,12 +2,12 @@
 apiVersion: networking.k8s.io/v1
 kind: Ingress
 metadata:
-  name: gaming
-  namespace: max-loehr
+  name: attacke
+  namespace: default
 spec:
   ingressClassName: nginx
   rules:
-    - host: gaming.dhbw.schoeppi5.de
+    - host: attacke.dhbw.schoeppi5.de
       http:
         paths:
           - backend:
