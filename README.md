@@ -31,24 +31,26 @@ npm run dev
 
 ## Aufgaben (20 Punkte)
 
-1. Installiere: **(3 Punkte)**
+1. Installiere: **(3 Punkte)** (3)
    * ESLint
    * Jest
    * Prettier
    > Die Config Dateien brauchen nicht angepasst werden
    
    > Denke auch an die nötigen Typescript dependencies
-2. Schreibe ein `Dockerfile`, dass dazu benutzt werden kann, die Seite zur Verfügung zu stellen **(2 Punkte)**
-3. Schreibe GitHub Actions für: **(3 Punkte)**
+2. Schreibe ein `Dockerfile`, dass dazu benutzt werden kann, die Seite zur Verfügung zu stellen **(2 Punkte)** (2)
+3. Schreibe GitHub Actions für: **(3 Punkte)** (3)
    * Continuous Integration
    * Continuous Delivery (GitHub Packages)
    * Continuous Deployment (GitHub Pages)
-4. Definiere alle nötigen Manifeste um das erstellte Image auf einem Kubernetes Cluster zu deployen **(5 Punkte)**
+4. Definiere alle nötigen Manifeste um das erstellte Image auf einem Kubernetes Cluster zu deployen **(5 Punkte)** (5)
 5. Erkläre in eigenen Worten:
-   * Welche Vorteile ein Kubernetes Deployment gegenüber einem Kubernetes Pod hat **(2 Punkte)**
-   * Wofür ein Kubernetes Service gut ist **(2 Punkte)**
-   * Mehrere Wege wie man eine Kubernetes Anwendung von außen erreichen kann **(3 Punkte)**
+   * Welche Vorteile ein Kubernetes Deployment gegenüber einem Kubernetes Pod hat **(2 Punkte)** (2)
+   * Wofür ein Kubernetes Service gut ist **(2 Punkte)** (2)
+   * Mehrere Wege wie man eine Kubernetes Anwendung von außen erreichen kann **(3 Punkte)** (2)
 
 ## Zusatzaufgabe:
 
 Definiere einen Kubernetes Job **(2 Punkte)**
+
+Gesamt: 19 / 20
